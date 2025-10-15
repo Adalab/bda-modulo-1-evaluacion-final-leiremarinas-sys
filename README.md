@@ -1,6 +1,6 @@
 # Evaluación Módulo 1: Sistema de Gestión de Tienda Online
 
-Este repositorio contiene la solución a la evaluación del Módulo 1 del programa de Data Analytics PArt Time de Adalab. 
+Este repositorio contiene la solución a la evaluación del Módulo 1 del programa de Data Analytics Part Time de Adalab. 
 El proyecto es una aplicación simulada en Python que gestiona las operaciones básicas de una tienda online, incluyendo inventario, registro de clientes y procesamiento de compras.
 
 La implementación utiliza funciones, bucles (`for`, `while`) y estructuras de datos fundamentales como listas de diccionarios (para el inventario) y diccionarios anidados (para los clientes).
