@@ -55,4 +55,25 @@ agregar_producto()	Añade stock o un nuevo producto al INVENTARIO.
 realizar_compra()	Permite la interacción con el cliente, actualiza el inventario y calcula el coste total.
 calcular_valor_inventario()	Calcula el valor monetario total del stock.
 
+## 🏪 Clase `TiendaOnline`
+
+La clase **`TiendaOnline`** implementa una simulación básica de una tienda virtual en Python.  
+Refactoriza una versión inicial basada en funciones sueltas y variables globales, convirtiéndola en una estructura **orientada a objetos** más organizada y reutilizable.
+
+Cada instancia de `TiendaOnline` representa una tienda independiente, con su propio inventario, lista de clientes y registro de ventas.
+
+### 🔹 Características principales
+- **Inventario gestionado dinámicamente**: agregar, eliminar, buscar y actualizar productos.  
+- **Gestión de clientes** y registro de compras.  
+- **Simulación de ventas** con cálculo de totales y control de stock.  
+- **Encapsulamiento completo**: todos los datos se almacenan como atributos de instancia (`self.inventario`, `self.clientes`, etc.).  
+- **Métodos** para visualizar información (`ver_inventario`, `ver_clientes`, `valor_inventario`, etc.).
+
+### 🧠 Ventajas del diseño
+- Sin variables globales: cada tienda mantiene su propio estado.  
+- Código más legible, escalable y fácil de mantener.  
+- Posibilidad de ejecutar **múltiples tiendas simultáneamente**:
+  ```python
+  tienda1 = TiendaOnline()
+  tienda2 = TiendaOnline()
 
