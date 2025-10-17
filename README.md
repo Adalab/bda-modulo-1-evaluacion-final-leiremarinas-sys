@@ -5,6 +5,8 @@ El proyecto es una aplicación simulada en Python que gestiona las operaciones b
 
 La implementación utiliza funciones, bucles (`for`, `while`) y estructuras de datos fundamentales como listas de diccionarios (para el inventario) y diccionarios anidados (para los clientes).
 
+Se crean algunas variables globales para optimizar en funcionamiento de las funciones
+
 ---
 
 ## 🛠️ Requisitos del Sistema
